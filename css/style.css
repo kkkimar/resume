@@ -122,6 +122,10 @@ ul li {
   display: flex;
 }
 
+.nav__list li {
+  list-style: none;
+}
+
 .nav__item {
   margin-left: var(--spacing-3);
 }
