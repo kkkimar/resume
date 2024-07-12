@@ -388,6 +388,10 @@ ul li {
   transform: scale(1.05);
 }
 
+.work__title {
+  margin-bottom: var(--spacing-1);
+}
+
 /* contact */
 .contact__container {
   display: flex;
