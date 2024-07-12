@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/ico_crew.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <script
+      src="https://kit.fontawesome.com/6601cff6e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typeit@8.8.3/dist/index.umd.js"></script>
+    <script src="./js/main.js" defer></script>
+    <title>포트폴리오</title>
+    <meta
+      name="description"
+      content="김아름의 웹 개발 포트폴리오입니다. 백엔드 개발자 지원합니다"
+    />
+    <!-- OG Tag -->
+    <meta
+      property="og:description"
+      content="김아름의 웹 개발 포트폴리오입니다. 백엔드 개발자 지원합니다"
+    />
+    <!-- url 경로 넣어주면 sns에 올릴때 그 사진으로 미리보기 사진 뜸 -->
+    <!-- <meta property="og:image" content="" /> -->
+  </head>
+  <body>
+    <headero class="header">
+      <nav class="nav container">
+        <!-- 이미지 로고 -->
+        <div class="nav__logo">
+          <img class="nav__img" src="./images/logo.png" alt="logo" />
+          <a href="#" class="nav__brand">김아름</a>
+        </div>
+
+        <!-- 메뉴 -->
+        <div class="nav__menue" id="nav__menue">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </headero>
+    <main>
+      <!-- HOME -->
+      <section class="home container section" id="home">
+        <!-- Home Data -->
+        <div class="home__data">
+          <h2 id="type-it" class="home__title"></h2>
+
+          <a href="https://github.com/kkkimar" class="button" target="_blank"
+            >Github</a
+          >
+
+          <div class="home__social">
+            <!-- <a
+              href="https://www.youtube.com/@gymcoding"
+              target="_blank"
+              title="짐코딩 유튜브 링크"
+            >
+              <i class="fa-brands fa-youtube home__social-icon"></i>
+            </a> -->
+
+            <!-- <a
+              href="https://www.instagram.com/gymcoding/"
+              target="_blank"
+              title="짐코딩 인스타그램 링크"
+            >
+              <i class="fa-brands fa-instagram home__social-icon"></i>
+            </a> -->
+
+            <!-- <a
+              href="https://github.com/kkkimar"
+              target="_blank"
+              title="깃헙 링크"
+            >
+              <i class="fa-brands fa-github home__social-icon"></i>
+            </a> -->
+          </div>
+        </div>
+
+        <!-- Home Image -->
+        <img
+          class="home__img"
+          src="./images/home/resumeImg.jpg"
+          alt="프로필 이미지"
+        />
+      </section>
+
+      <!-- about -->
+      <section class="about section bg-grey-1" id="about">
+        <h2 class="section__title">About</h2>
+
+        <div class="about__container container">
+          <div>
+            <img
+              class="about__img"
+              src="./images/about/about이미지.png"
+              alt="프로필이미지"
+            />
+          </div>
+
+          <div class="about__data">
+            <h3 class="about__subtitle">저는 이렇게 시작했습니다</h3>
+            <p class="about__text">
+              평소 디자인이 예쁘고 신기한 홈페이지에 관심이 많아 프론트엔드
+              개발에 흥미를 느껴 웹 개발에 입문했습니다. 화면 구성과 기능을
+              구현하고 관련 자격증을 취득하며 공부하다 보니 화면 구성 이상으로
+              서버, 데이터베이스 관리, 서버 사이드 로직 개발이 웹 개발에 중요한
+              비중을 차지한다는 것을 알게 되며 백엔드 개발에 관심을 가지게
+              되었습니다.
+              <br /><br />
+              비전공자로서 전문지식을 쌓기 위해 기본부터 체계적으로 배우고자
+              자바 개발 국비 6개월 과정 수업을 들으며 실무에 대한 지식을 쌓았고
+              2번의 프로젝트를 통해 팀원과의 협업과 의사소통하는 역량을
+              향상시켰습니다.
+              <br /><br />
+              다른 사람들보다 늦은 나이에 시작했지만, 누구보다 재밌고 열심히 할
+              수 있다는 자신이 있습니다. 새로운 도전과 배움을 두려워하지 않고,
+              항상 성실하게 임하며 성장해 나갈 것입니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+
+        <div class="skills__container container">
+          <!-- 스킬 데이터 -->
+          <div>
+            <div>
+              <article class="skills__data" data-skill="html5">
+                <div class="skills__names">
+                  <i class="fa-brands fa-html5 sills__icon"></i>
+                  <span class="skills__name">HTML5</span>
+                </div>
+                <div>
+                  <span class="skills__percentage">85%</span>
+                </div>
+                <progress
+                  class="skills__progress"
+                  id="html5"
+                  max="100"
+                  value="85"
+                ></progress>
+                <div class="skills__details">
+                  <h4>HTML5</h4>
+                  <p>
+                    HTML5는 최신 웹 표준 마크업 언어로, 웹 콘텐츠의 구조와
+                    의미를 정의합니다.
+                  </p>
+                </div>
+              </article>
+
+              <article class="skills__data" data-skill="css3">
+                <div class="skills__names">
+                  <i class="fa-brands fa-css3 sills__icon"></i>
+                  <span class="skills__name">CSS3</span>
+                </div>
+                <div>
+                  <span class="skills__percentage">80%</span>
+                </div>
+                <progress
+                  class="skills__progress"
+                  id="css3"
+                  max="100"
+                  value="80"
+                ></progress>
+                <div class="skills__details">
+                  <h4>CSS3</h4>
+                  <p>
+                    CSS3는 스타일링 언어로, 웹 페이지의 레이아웃과 디자인을
+                    정의합니다.
+                  </p>
+                </div>
+              </article>
+
+              <article class="skills__data" data-skill="javascript">
+                <div class="skills__names">
+                  <i class="fa-brands fa-js sills__icon"></i>
+                  <span class="skills__name">JavaScript</span>
+                </div>
+                <div>
+                  <span class="skills__percentage">90%</span>
+                </div>
+                <progress
+                  class="skills__progress"
+                  id="javascript"
+                  max="100"
+                  value="90"
+                ></progress>
+                <div class="skills__details">
+                  <h4>JavaScript</h4>
+                  <p>
+                    JavaScript는 웹 페이지에 동적인 기능을 추가하는 스크립트
+                    언어입니다.
+                  </p>
+                </div>
+              </article>
+
+              <article class="skills__data" data-skill="backend">
+                <div class="skills__names">
+                  <i class="fa-solid fa-server sills__icon"></i>
+                  <span class="skills__name">Back-end</span>
+                </div>
+                <div>
+                  <span class="skills__percentage">95%</span>
+                </div>
+                <progress
+                  class="skills__progress"
+                  id="backend"
+                  max="100"
+                  value="95"
+                ></progress>
+                <div class="skills__details">
+                  <h4>Back-end</h4>
+                  <p>
+                    Back-end 개발은 서버, 데이터베이스 및 애플리케이션 로직을
+                    포함합니다.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- 이미지 -->
+          <div>
+            <h3 class="skills__subtitle">Professional Skills</h3>
+            <p class="skills__text">
+              <b>KH 정보교육원</b> 에서 HTML5, CSS3, JavaScript, Java, JSP,
+              Spring MVC, Oracle, 공공데이터 활용 등 실무에 필요한 기본 지식을
+              습득했으며 인프런을 통해 AWS EC2를 활용한 배포와 JPA에 대해 공부를
+              하고 있습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- work -->
+      <section class="work section" id="work">
+        <h2 class="section__title">Work</h2>
+        <div class="work__container container">
+          <div class="work_img_container">
+            <a
+              class="work__link"
+              href="https://github.com/kkkimar/finalProject"
+              target="_blank"
+              title="팀프로젝트 포트폴리오"
+            >
+              <img
+                class="work__img"
+                src="./images/work/메인화면.png"
+                alt="팀프로젝트 포트폴리오"
+              />
+            </a>
+
+            <!-- <a
+              class="work__link"
+              href="https://www.gymcoding.co/courses/vue-basic"
+              target="_blank"
+              title="Vue3 완벽 마스터 - 기본편 강의"
+            >
+              <img
+                class="work__img"
+                src="./images/work/portfolio.png"
+                alt="Vue3 완벽 마스터 - 기본편 강의"
+              />
+            </a>
+  
+            <a
+              class="work__link"
+              href="https://www.gymcoding.co/courses/vue-practice"
+              target="_blank"
+              title="Vue3 완벽 마스터 - 실전편 강의"
+            >
+              <img
+                class="work__img"
+                src="./images/work/portfolio.png"
+                alt="Vue3 완벽 마스터 - 실전편 강의"
+              />
+            </a>
+  
+            <a
+              class="work__link"
+              href="https://www.gymcoding.co/courses/quasar"
+              target="_blank"
+              title="퀘이사 완벽 마스터 강의"
+            >
+              <img
+                class="work__img"
+                src="./images/work/portfolio.png"
+                alt="퀘이사 완벽 마스터 강의"
+              />
+            </a>
+  
+            <a
+              class="work__link"
+              href="https://www.gymcoding.co/courses/vue-firebase"
+              target="_blank"
+              title="Vue3 & Firebase 커뮤니티 풀스택 강의"
+            >
+              <img
+                class="work__img"
+                src="./images/work/portfolio.png"
+                alt="Vue3 & Firebase 커뮤니티 풀스택 강의"
+              />
+            </a>
+  
+            <a
+              class="work__link"
+              href="https://www.gymcoding.co/courses/nuxt"
+              target="_blank"
+              title="Vue3 끝판왕 : Nuxt3 완벽 마스터"
+            >
+              <img
+                class="work__img"
+                src="./images/work/portfolio.png"
+                alt="Vue3 끝판왕 : Nuxt3 완벽 마스터"
+              />
+            </a> -->
+          </div>
+          <div class="work_details_container">
+            <p>
+              UrbanliFeConnector(UFC)는 주민들을 위한 각종 편의 제공 프로그램을
+              운영하여, 주민들에게 수준 높은 편의 서비스를 제공하는
+              플랫폼입니다. 본 프로젝트는 주민들이 손쉽게 온라인으로 편리하게
+              시설들을 이용할 수 있도록 지원하는 것을 목표로 합니다.
+            </p>
+            <a
+              class="button"
+              href="https://adventurous-kangaroo-78c.notion.site/UFC-Project-9e77ae1f3d95451b9cfb48b88dd737c6?pvs=4"
+              >상세설명</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="section container" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__container">
+          <div class="contact__box">
+            <i class="fa-solid fa-user"></i>
+            <h3 class="contact__title">김아름</h3>
+          </div>
+          <div class="contact__box">
+            <i class="fa-solid fa-calendar"></i>
+            <h3 class="contact__title">1989.12.15</h3>
+          </div>
+          <div class="contact__box">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3 class="contact__title">서울시 영등포구</h3>
+          </div>
+          <div class="contact__box">
+            <i class="fa-solid fa-envelope"></i>
+            <h6 class="contact__title">kimarv@naver.com</h6>
+          </div>
+          <div class="contact__box">
+            <i class="fa-solid fa-phone"></i>
+            <h3 class="contact__title">010-5625-0049</h3>
+          </div>
+        </div>
+      </section>
+
+      <button class="floating-button" id="floating-button">
+        <i class="fa-solid fa-arrow-up floating-button-icon"></i>
+      </button>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footer__title">김아름</p>
+      <div class="footer__social">
+        <a
+          href="https://github.com/kkkimar"
+          target="_blank"
+          title="깃허브 링크"
+        >
+          <i class="fa-brands fa-github footer__icon"></i>
+        </a>
+
+        <a href="#" target="_blank" title="유튜브 링크">
+          <i class="fa-brands fa-youtube footer__icon"></i>
+        </a>
+
+        <a href="#" target="_blank" title="인스타그램 링크">
+          <i class="fa-brands fa-instagram footer__icon"></i>
+        </a>
+      </div>
+      <p class="footer__copy">
+        Copyright &copy; 2024 김아름 All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
